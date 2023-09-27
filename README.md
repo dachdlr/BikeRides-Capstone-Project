@@ -75,7 +75,7 @@ In this case, we were able to find significant differences between both user typ
 
   ---
 
-  ## Conclutions 
+  ## Conclusions 
 
   ![](dif_chart.png)
 
