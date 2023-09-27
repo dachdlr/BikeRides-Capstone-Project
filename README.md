@@ -33,12 +33,64 @@ SQL workflow for cleaning and summary tables
 - Additional filtering for incorrect/irrelevant data
 - Format Ride_length to seconds for easier analysis
 
-Process for filtering out all rides that were less
-than 1 minute and casual rides that lasted more than 24 hours | Process for formating ride_length to seconds 
-:------------------------------------------------------------:|:-----------------------------------------------:
-![](cleaning data 1.png)
+Process for filtering out all rides that were less than 1 minute and casual rides that lasted more than 24 hours | Process for formating ride_length to seconds 
+:---------------------------------------------------------------------------------:|:---------------------------------------------------------------------:
+ ![](cleaning_data_1.png)     | ![](cleaning_data_2.png) 
+
+ ---
+
+ ## Analysis 
+
+In order to analyze the data it will be necessary to process it in SQL due to the large amount of data. We will be finding the average ride lengths for members and casuals. Also, the average ride length for users based on the day of the week. Furthermore, we will need to determine the amount of rides on each day. Lastly, we will see which stations are the most popular for the users.
+
+Calculating average ride length for both types of users     |  Calculating average ride length based on the day of the week 
+:----------------------------------------------------------:|:---------------------------------------------------------------------:
+ ![](ride_length.png)     | ![](ride_lenght_day.png) 
+ Calculating number of rides per day    |  Calculating the most popular stations 
+ ![](number_rides.png)     | ![](top_10.png) 
+
+ ---
+
+ ## Visualizations
+
+In this case, we were able to find significant differences between both user types. 
+
+ 1. On average the casual user has longer rides than the members
+
+ ![](avg_rides_chart.png)
+
+ 2. members have more rides completed
+
+ ![](num_rides_chart.png)
+
+ 3. Ride time goes up on the weekends
+
+ ![](Ride_time.png)
+
+ 4. There is no overlapse on locations 
+
+  ![](top_10_chart.png)
+
+  ![](uses_chart.png)
+
+  ---
+
+  ## Conclutions 
+
+  ![](dif_chart.png)
+
+Both groups use the rides for very different purposes. The members make it part of their daily routine and use it for specific purposes. While casual riders use it more for leisure activities and is not necessarily part of their daily activities. With that in mind, an effective marketing campaign would require to target those who are looking to make a switch and use cycling as more constant form of transportation. Also, there may be riders who already use the app more purposefully but have hold off on making the switch to a yearly plan for different reasons. Those users need to be targeted as well. 
+
+![](Moving_forward_chart.png)
+
+The next step would entail to gather up data on specific user ID´s to determine if there are any riders among the casual group that already fit the description we just stablished and employ ads specifically design so that they make the switch. Specific user ID data would be great so that we can analyze particular behavior and segment appropriately. 
 
 
+
+  
+  
+
+  
 
 
  
